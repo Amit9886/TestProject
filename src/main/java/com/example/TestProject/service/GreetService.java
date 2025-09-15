@@ -1,5 +1,6 @@
-package com.example.TestProject.grretingservice;
+package com.example.TestProject.service;
 
+import com.example.TestProject.helper.MessageGenerator;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,6 +9,6 @@ public class GreetService {
 
     @GetMapping("/greet")
     public String greet() {
-        return "Hello India";
+        return new MessageGenerator().getMessage();
     }
 }
