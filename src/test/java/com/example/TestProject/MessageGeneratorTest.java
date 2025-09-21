@@ -10,7 +10,7 @@ class MessageGeneratorTest {
     void testGenerateMessageReturnsExpectedValue() {
         MessageGenerator generator = new MessageGenerator();
         String result = generator.getMessage();
-        assertEquals("Hello India !!", result);
+        assertEquals("Hi India !!", result);
     }
 
     @Test
