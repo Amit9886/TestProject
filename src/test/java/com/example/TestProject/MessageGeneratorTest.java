@@ -10,7 +10,7 @@ class MessageGeneratorTest {
     void testGenerateMessageReturnsExpectedValue() {
         MessageGenerator generator = new MessageGenerator();
         String result = generator.getMessage();
-        assertEquals("Hi CI/CD working1 !!", result);
+        assertEquals("Hi CI/CD working12 !!", result);
     }
 
     @Test
